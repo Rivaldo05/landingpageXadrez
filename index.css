@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +9,7 @@
     color: black;
     font-size: 1em;
     line-height: 1.4em;
-    font-family: 'Alice' ,Arial, Helvetica, sans-serif;
+    font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
 }
 h1,h2{
     font-size: 2.5em;
@@ -96,10 +97,12 @@ header{
     height: 100%;
 }
 .text-peca > h2 {
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
     color: #f33946;
     margin-bottom: 50px;
 }
 .text-peca > p{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
     width: 100%;
     color: aliceblue;
 }
