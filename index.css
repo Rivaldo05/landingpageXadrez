@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: black;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Alice' ,Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+p{
+    width: 80%;
+    text-align: center;
+    max-width: 800px;
+    font-size: 1.25em;
+    padding: 0 10px;
+}
+
+header{
+    background-image: linear-gradient(45deg,rgb(20, 20, 20),rgb(56, 63, 71));
+    width: 100vw;
+    height: 350px;
+    position: relative;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.flex-info{
+    width: 100vw;
+}
+.info-header > h1, .info-header > span{
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+
+.info-header > span{
+    font-size: 1.5em;
+    color: #f33946;
+}
+#img-header{
+    position: absolute;
+    bottom: -40%;
+    min-width: 200px;
+    width: 500px;
+    padding: 10px;
+}
+#article-pecas{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+#article-pecas > h2{
+    color: #252324;
+    text-transform: uppercase;
+}
+#grid-pecas{
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    background-color: #1c1c1c;
+    box-shadow: 5px 5px 10px #242221;
+}
+#Conteiner-pecas{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    border: 2px solid #242221;
+}
+.img-pecas{
+    width: 100px;
+}
+
+.text-peca{
+    width: 100%;
+    height: 100%;
+}
+.text-peca > h2 {
+    color: #f33946;
+    margin-bottom: 50px;
+}
+.text-peca > p{
+    width: 100%;
+    color: aliceblue;
+}
+
+@media screen and (max-width:600px){
+    p{
+        width: 100%;
+    }
+}
